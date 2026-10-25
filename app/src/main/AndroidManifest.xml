@@ -7,7 +7,7 @@
         android:allowBackup="true"
         android:label="MTK Flash Tool"
         android:theme="@style/Theme.MTKFlash"
-        android:icon="@android:drawable/sym_def_app_icon">
+        android:icon="@drawable/ic_launcher">
 
         <activity
             android:name=".MainActivity"
@@ -18,8 +18,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
 
-            <!-- Launches this activity automatically when an MTK device is
-                 plugged in, even if the app hasn't been opened yet -->
             <intent-filter>
                 <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" />
             </intent-filter>
