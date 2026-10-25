@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    MediaTek Vendor ID = 0x0E8D = 3725 (decimal, used by Android).
+    Not locked to a specific product-id because MTK's PID varies by
+    mode: BROM (0x0003), Preloader (0x2000/0x2001/etc.), and so on.
+-->
+<resources>
+    <usb-device vendor-id="3725" />
+</resources>
